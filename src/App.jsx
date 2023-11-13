@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
+import React from 'react'
 import Footer from './component/Footer'
 import Home from './component/Home'
 import NavbarComp from './component/Navbar'
@@ -11,7 +11,7 @@ import Edit from './component/users/Edit'
 
 function App() {
 
-  return (
+  return(
     <>
       <NavbarComp/>
       <Routes>
@@ -30,4 +30,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
